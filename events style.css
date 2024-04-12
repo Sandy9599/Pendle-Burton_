@@ -1,0 +1,100 @@
+.logo {
+    display: flex;
+    justify-content: flex-start;
+    margin-left: 10px;
+  }
+  
+  .logo img {
+    padding-left: 12px;
+    transition: all 0.7s ease-in;
+    justify-self: flex-start;
+  }
+  
+  .logo:hover img {
+    transform: scale(0.9);
+  }
+  
+  
+  
+  
+  header {
+    text-align: center;
+    height: 12.1vh;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: space-between;
+    background-color: rgb(22, 21, 21);
+    border: 1px solid rgb(241, 230, 18);
+    border-left: none;
+    border-right: none;
+  }
+  
+  
+  .nav ul {
+    list-style: none;
+    padding: 10px;
+    margin: 0;
+    margin-left: 350px;
+  }
+  
+  .nav ul li {
+    display: inline;
+    /* Make the list items inline */
+    width: 300px;
+    text-align: center;
+    padding: 4px;
+    border-radius: 10px;
+    background: transparent;
+    margin-right: 10px;
+    padding: 7px;
+  
+  }
+  
+  .nav ul li a {
+    text-decoration: none;
+    color: darkgray;
+    font-size: 22px;
+    font-weight: 500;
+  }
+  
+  .nav ul li:hover {
+    background-color: black;
+  }
+  
+  .nav ul li a:hover {
+    color: white;
+  }
+  .book a {
+    background-color: #f3f7fe;
+    border: 1px solid rgb(0, 0, 0);
+    color: black;
+    border-radius: 8px;
+    transition: .3s;
+    margin-right: 10px;
+    border-radius: 12px;
+    padding: 8px 4px;
+    font-size: 20px;
+    text-decoration: none;
+  }
+  
+  .book a:hover {
+    background-color: yellow;
+    box-shadow: 0 0 0 5px rgb(180, 180, 47);
+    color: black;
+  }
+  .footer {
+    background-color: black;
+    height: 14px;
+    text-align: center;
+    padding: 5px 0;
+    border: 2px solid gold;
+    border-left: none;
+    border-right: none;
+  }
+  
+  .footer p {
+    color: gold;
+    font-size: 13px;
+    font-weight: 300;
+  }

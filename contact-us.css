@@ -1,0 +1,189 @@
+body {
+  font-family:latha;
+  color:white;
+  background:url(food.jpg)no-repeat;
+  background-size:cover;
+  
+}
+
+header {
+  padding: 20px;
+  text-align: center;
+}
+
+section {
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 20px;
+}
+
+footer {
+  background-color: black;
+  text-align: center;
+  padding: 5px 0;
+  border: 2px solid gold;
+  border-left: none;
+  border-right: none;
+  position: fixed;
+	bottom:0px;
+	width: 100%;
+}
+
+footer p {
+  color: gold;
+  font-size: 13px;
+  font-weight: 300;
+}
+
+.nav {
+ width:800px;
+ float:right;
+ font-size:20px;
+}
+
+.nav ul li {
+  width:100px;
+  float:left;
+  margin:5px auto;
+  text-align:center;
+  padding:10px;
+}
+
+.nav ul li a{text-decoration:none;
+color:darkgray;
+}
+
+.nav ul li a:hover{
+color:white;
+}
+
+.contact-us{
+	position:absolute;
+	top:90px;
+	left:0px;
+	width:230px;
+	height:1034px;
+    background-color:black;
+	opacity:0.8;
+	padding:55px;
+}
+
+.contact-us h1{
+	text-align:center;
+	text-transform:uppercase;
+	font-weight:100px;
+
+}
+.contact-us h4{
+	text-align:center;
+	color:white;
+	font-weight:narrower;
+	font-size:20px;
+}
+
+.menu{
+	font-family:Josefin Sans;
+	color: white;
+	font-size:18px;
+	position: absolute;
+	left:1%;
+	top:90%;
+	width: 100%;
+	text-align: center;
+}
+
+.contact-us h2{
+	text-align:center;
+	text-transform:uppercase;
+	font-weight:normal;
+	margin:40px auto;
+	position:absolute;
+	top:460px;
+	left:90px;
+}
+
+.opt [type="button"]{
+	background-color:black;
+	color:white;
+	padding:5px;
+	margin:-16px auto;
+	padding-left:35px;
+	padding-right:50px;
+	text-align:center;
+	position:absolute;
+	top:550px;
+	left:90px;
+	box-shadow:0 0 3px;
+	width:150px;
+}
+form,input[type="button"]:hover{
+	background-color:grey;
+}
+
+.map{
+	position:absolute;
+	top:1142px;
+left:0px;
+}
+
+
+
+/* LOGO CSS */
+.logo {
+  display: flex;
+  justify-content: flex-start;
+  margin-left: 6px;
+}
+
+.logo img {
+  padding-left: 12px;
+  transition: all 0.7s ease-in;
+  justify-self: flex-start;
+}
+
+.logo:hover img {
+  transform: scale(0.9);
+}
+
+
+.social-media li a
+{ color:gold;
+margin-bottom: 5px;
+display:inline-block;
+}
+
+
+.social-media li 
+{ 
+list-style:none;
+}
+
+
+.social-media li a.telephone
+{ 
+text-decoration:none;
+margin-top:10px;
+}
+
+.book a {
+  background-color: #f3f7fe;
+  border: 1px solid rgb(0, 0, 0);
+  color: black;
+  border-radius: 8px;
+  transition: .3s;
+  margin-right: 10px;
+  border-radius: 12px;
+  padding: 8px 4px;
+  font-size: 20px;
+  text-decoration: none;
+  position:absolute;
+  left:1722px;
+  top:111px;
+}
+
+.book a:hover {
+  background-color: yellow;
+  box-shadow: 0 0 0 5px rgb(180, 180, 47);
+  color: black;
+}
+

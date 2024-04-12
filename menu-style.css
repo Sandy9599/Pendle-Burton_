@@ -1,0 +1,231 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  text-align: center;
+  height: 12.1vh;
+  display: flex;
+  align-items: center;
+  width: 100%;
+  justify-content: space-between;
+  background-color: rgb(22, 21, 21);
+  border: 1px solid rgb(241, 230, 18);
+  border-left: none;
+  border-right: none;
+}
+
+.logo {
+  display: flex;
+  justify-content: flex-start;
+  margin-left: 10px;
+}
+
+.logo img {
+  padding-left: 12px;
+  transition: all 0.7s ease-in;
+  justify-self: flex-start;
+}
+
+.logo:hover img {
+  transform: scale(0.9);
+}
+
+.nav ul {
+  list-style: none;
+  padding: 10px;
+  margin: 0;
+  margin-left: 350px;
+}
+
+.nav ul li {
+  display: inline;
+  /* Make the list items inline */
+  width: 300px;
+  text-align: center;
+  padding: 4px;
+  border-radius: 10px;
+  background: transparent;
+  margin-right: 10px;
+  padding: 7px;
+
+}
+
+.nav ul li a {
+  text-decoration: none;
+  color: darkgray;
+  font-size: 22px;
+  font-weight: 500;
+}
+
+.nav ul li:hover {
+  background-color: black;
+}
+
+.nav ul li a:hover {
+  color: white;
+}
+
+.book a {
+  background-color: #f3f7fe;
+  border: 1px solid rgb(0, 0, 0);
+  color: black;
+  border-radius: 8px;
+  transition: .3s;
+  margin-right: 10px;
+  border-radius: 12px;
+  padding: 8px 4px;
+  font-size: 20px;
+  text-decoration: none;
+}
+
+.book a:hover {
+  background-color: yellow;
+  box-shadow: 0 0 0 5px rgb(180, 180, 47);
+  color: black;
+}
+
+.teams {
+
+  height: 100vh;
+
+  display: flex;
+
+  width: 100%;
+
+  background-color: black;
+
+  color: gold;
+
+  justify-content: center;
+
+  align-items: center;
+
+  flex-direction: column;
+
+}
+
+h3 {
+
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-;
+
+}
+
+.team-content {
+
+  width: 100%;
+
+  max-width: 1350px;
+
+  display: grid;
+
+  grid-template-columns: repeat(auto-fit, minmax(150px, auto));
+
+  align-items: center;
+
+  gap: 1.5rem;
+
+  text-align: center;
+
+  margin-top: 4rem;
+
+}
+
+.team-content img {
+
+  border: 2px solid white;
+
+  border-radius: 10%;
+
+  height: auto;
+
+  width: 90%;
+
+  margin-right: 20px;
+
+  margin-left: 20px;
+
+}
+
+.center h1 {
+
+  color: #f3f7fe;
+
+  font-size: 4rem;
+
+  text-align: center;
+
+}
+
+.menu {
+  display: flex;
+  background-color: #333;
+  justify-content: space-around;
+  margin: 20px 0;
+}
+
+main {
+  display: flex;
+  background-color: black;
+  justify-content: center;
+  align-items: center;
+  height: 87.1vh;
+}
+
+.Intro {
+  padding: 30px;
+  border-radius: 19px;
+
+}
+
+.Intro h1 {
+  text-shadow: 0 0 10px rgb(0, 0, 0);
+  color: gold;
+  font-size: 60px;
+  font-family: serif;
+  text-shadow: 0 0 20px goldenrod, 0 0 40px white;
+
+}
+
+.line {
+  height: 5px;
+  background-color: gold;
+  border: 1px solid black;
+}
+
+.menu-item {
+  width: 33.33%;
+  text-align: center;
+  padding: 10px;
+  border: 1px solid #ccc;
+}
+
+.menu-item a {
+  text-decoration: none;
+  color: #333;
+  font-size: 18px;
+}
+
+.menu-item a:hover {
+  color: #007bff;
+  text-decoration: underline;
+}
+
+.footer {
+  background-color: black;
+  height: 14px;
+  text-align: center;
+  padding: 5px 0;
+  border: 2px solid gold;
+  border-left: none;
+  border-right: none;
+  bottom: 0;
+}
+
+.footer p {
+  background-color: black;
+  color: gold;
+  font-size: 13px;
+  font-weight: 300;
+}

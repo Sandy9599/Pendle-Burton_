@@ -1,0 +1,255 @@
+body {
+  font-family:latha;
+  color:white;
+  background:url(restaurant.webp)no-repeat;
+  background-size:cover;
+  background-color:darkgray;
+  
+  
+
+}
+
+header {
+  padding: 20px;
+  text-align: center;
+}
+
+section {
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 20px;
+}
+
+.nav {
+ width:800px;
+ float:right;
+ font-size:20px;
+}
+
+.nav ul li {
+  width:100px;
+  float:left;
+  margin:5px auto;
+  text-align:center;
+  padding:10px;
+}
+
+.nav ul li a{text-decoration:none;
+color:darkgray;
+}
+
+.nav ul li a:hover{
+color:white;
+}
+
+.contact-us{
+	position:absolute;
+	top:90px;
+	left:0px;
+	width:230px;
+	height:960px;
+    background-color:black;
+	opacity:0.8;
+	padding:55px;
+}
+
+.contact-us h1{
+	text-align:center;
+	text-transform:uppercase;
+	font-weight:100px;
+
+}
+.contact-us h4{
+	text-align:center;
+	color:white;
+	font-weight:narrower;
+	font-size:20px;
+}
+
+.menu{
+	font-family:Josefin Sans;
+	color: white;
+	font-size:18px;
+	position: absolute;
+	left:1%;
+	top:90%;
+	width: 100%;
+	text-align: center;
+}
+
+.contact-us h2{
+	text-align:center;
+	text-transform:uppercase;
+	font-weight:normal;
+	margin:40px auto;
+	position:absolute;
+	top:450px;
+	left:125px;
+	
+}
+
+.opt [type="button"]{
+	background-color:black;
+	color:white;
+	padding:5px;
+	margin:-16px auto;
+	padding-left:35px;
+	padding-right:50px;
+	text-align:center;
+	position:absolute;
+	top:875px;
+	left:130px;
+	box-shadow:0 0 3px;
+	width:150px;
+}
+
+input[type="button"]:hover{
+	background-color:grey;
+}
+
+.form{
+	position:absolute;
+	top:550px;
+	left:170px;
+	display:block;
+}
+
+#name{
+	position:absolute;
+	left:125px;
+	top:540px;
+}
+
+#email{
+	position:absolute;
+	left:125px;
+	top:580px;
+}
+
+#phone{
+	position:absolute;
+	left:125px;
+	top:620px;
+}
+
+#guests{
+	position:absolute;
+	left:125px;
+	top:660px;
+}
+
+#date{
+	position:absolute;
+	left:125px;
+	top:700px;
+}
+
+#time{
+	position:absolute;
+	left:125px;
+	top:740px;
+}
+
+
+
+#Name{ 	
+position:absolute;
+	left:75px;
+	top:525px;
+}
+
+
+#Email{
+	position:absolute;
+	left:75px;
+	top:565px;
+}
+
+#Phone{
+	position:absolute;
+	left:75px;
+	top:605px;
+}
+
+#Guests{
+	position:absolute;
+	left:75px;
+	top:645px;
+}
+
+#Date{
+	position:absolute;
+	left:80px;
+	top:685px;
+}
+
+#Time{
+	position:absolute;
+	left:80px;
+	top:725px;
+}
+
+.map{
+	position:absolute;
+	top:980px;
+	left:0px;
+}
+	
+.logo {
+  display: flex;
+  justify-content: flex-start;
+  margin-left: 6px;
+}
+
+.logo img {
+  padding-left: 12px;
+  transition: all 0.7s ease-in;
+  justify-self: flex-start;
+}
+
+.logo:hover img {
+  transform: scale(0.9);
+}
+
+
+
+  
+footer {
+  background-color: black;
+  text-align: center;
+  padding: 5px 0;
+  border: 2px solid gold;
+  border-left: none;
+  border-right: none;
+  position: fixed;
+	bottom:0px;
+	width: 100%;
+}
+
+footer p {
+  color: gold;
+  font-size: 13px;
+  font-weight: 300;
+}
+
+.book a {
+  background-color: #f3f7fe;
+  border: 1px solid rgb(0, 0, 0);
+  color: black;
+  border-radius: 8px;
+  transition: .3s;
+  margin-right: 10px;
+  border-radius: 12px;
+  padding: 8px 4px;
+  font-size: 20px;
+  text-decoration: none;
+  position:absolute;
+  left:1722px;
+  top:111px;
+}
+
+.book a:hover {
+  background-color: yellow;
+  box-shadow: 0 0 0 5px rgb(180, 180, 47);
+  color: black;
+}
